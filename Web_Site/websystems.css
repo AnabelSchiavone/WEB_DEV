@@ -1,0 +1,175 @@
+
+/* ______________________________________________________________________________*/
+
+/* NAVIGATION PANE */
+
+/* This piece of code formats the entire horizontal navigation list */
+header, ul {
+  list-style-type: none; /* no bullet points */
+  margin: 0; /* no margins */
+  padding: 0; /* no padding */
+  overflow: hidden; /* establishes a container around the list */
+  background-color: #C2ADE0; /* colours the container established by the overflow code */
+}
+
+/* ensures that the invidiual text is aligned to the left of the page */
+header, li {
+  float: left; 
+}
+
+/* formats the individual navigation tags and how the hyperlinks are styled */
+header, li a {
+  display: block; /* square/rectangle appearance */
+  color: #1f1d1d;
+  text-align: center; /* within the block, align the text center */
+  padding: 20px; /* ensure that the text is 20px away from the outer border */
+  text-decoration: none;
+  font-family: monospace;
+  font-size:  25px;
+}
+
+/* Determine how the hyperlinked box interacts when hovered on */
+header, li a:hover {
+  background-color: rgb(202, 26, 176);
+}
+
+/* ______________________________________________________________________________*/
+
+/* BACKGROUND COLOUR */
+
+body {
+  background-color: #E9DEF4; /* determines the background colour on all the pages */
+}
+
+/* ______________________________________________________________________________*/
+
+/* FORMAT THE IMAGE AT THE TOP OF EACH PAGE */
+
+.start_img img {
+  width: 100%; /* ensure the starting images are 100% of the width of the screen no matter what the size of the browser or hardware device is */
+  margin-left: 20px; /* Create a 20px margin between the start of the image and the screen - creates white space */
+}
+
+/* ______________________________________________________________________________*/
+
+/* FEATURED ON THE INDEX PAGE */
+
+/* The div container is established so that an image (waving hand) can be aligned to the left of the text which is featured towards the right of the screen */
+div.gallery {
+  margin: 1px;
+  float: left; /* Text is featured on the left of the div container */
+  width: 49%; /* Singular container is 49% of the screen to ensure that the two div containers are horizontally aligned*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  line-height: 1.5em;
+
+}
+
+/* This piece of code formats the image within the gallery div container */
+div.gallery img {
+  width: 45%; /* Sets the width of the image to be 45% of the original width to fit into the container */
+  height: auto; /* Ensures that the height remains in proportion to the width ratio */
+  padding-left: 20%;
+  padding-top: 3%;
+
+}
+/* ______________________________________________________________________________*/
+
+/* TEXT FORMATTING USED ON THE GOALS PAGE - A DEFINITION LIST WAS USED - THIS PIECE OF CODE FORMATS THE TEXT WITIN THE LIST */
+
+/* Piece of code in featured in the future webpage - formats all the text and how it is displayed on the screen  */
+div.goals {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify; /* Ensures the text has even spacing so the text appears in a singular block with sentence length remaining consistent */
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+dd {
+  font-size: 18px; /* Makes the black lower description text 18px large */ 
+  line-height: 1.5em;   /* Line heigth is larger than the default */ 
+}
+
+dt {
+  font-size: 20px;  /* Makes the purple deadings of "lead" "code" "empower" 20px */ 
+}
+
+/* ______________________________________________________________________________*/
+
+/* INLINE TEXT FORMATTING  */
+
+/* Specific formatting of singular words/sentences within a bigger div */
+span {
+  font-weight: bold;
+  color: #925fd8;
+}
+
+/* ______________________________________________________________________________*/
+
+/* TABLE ON PAST WEBPAGE */
+
+/* Subjects Table in the past webpage */
+#subjects {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+/* Creates a border for both the table headings and content */
+#subjects td, #subjects th {
+  border: 3px solid black;
+  padding: 8px;
+}
+
+/* formats the table headings */
+#subjects th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #925fd8;
+  color: white;
+}
+
+/* ______________________________________________________________________________*/
+
+/* TEXT FORMATTING USED ACROSS ALL PAGES */
+
+p {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  font-size: 25px;
+  color:#925fd8; 
+}
+
+/* ______________________________________________________________________________*/
+
+/* TEXT FORMATTING USED ACROSS THE COMMENTS PAGE */
+.comments {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5em;
+  margin-left: 200px; 
+  margin-right: 200px;
+  margin-top: 30px;
+}
+
+.cimg img {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+
+ 
